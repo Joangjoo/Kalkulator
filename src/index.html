@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body class="bg-slate-400">
+    <div class="w-[400px] h-[570px] my-[100px] mx-auto bg-coba text-white rounded-[10px] shadow-slate-950" id="kalkulator">
+        <div class="display w-full h-[80px] bg-display text-[36px] text-right p-[20px] box-border rounded-md font-bold ">0</div>
+        <div class="button grid grid-cols-4 gap-5 p-5">
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="clear">C</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="backspace">&larr;</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="%">%</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="/">&divide;</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="7">7</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="8">8</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="9">9</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="*">&times;</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="4">4</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="5">5</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="6">6</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="-">-</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="1">1</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="2">2</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="3">3</button>
+            <button  class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="+">+</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="+/-">&plusmn;</button>
+            <button class="w-full h-16 text-2xl rounded cursor-pointer bg-button text-buttoncolor" value="0">0</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value=".">.</button>
+            <button class="operator w-full h-16 text-2xl rounded cursor-pointer bg-zinc-700 text-white" value="=">=</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
